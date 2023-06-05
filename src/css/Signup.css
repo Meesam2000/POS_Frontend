@@ -1,0 +1,82 @@
+.main1{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    height: 70vh;
+    background-color: white;
+   }
+   
+   .sub-main{
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    height:70vh;
+    width: 100%;
+    background-color: white;
+    padding: 5px;
+   }
+   .head{
+   font-style:oblique;
+   color: rgba(13,21,96,255);
+   text-align: center;
+   font-weight: bold;
+   align-content: center;
+   
+   }
+
+   .mylabel{
+       font-family: sans-serif;
+       font-weight: bold;
+       color: rgba(13,21,96,255);
+       text-align: left;
+       align-content: left;
+       padding-left: 5px;
+       padding-top: 10px;
+   }
+   .textbox1{
+       font-size: 12px;
+       border-radius: 5px;
+       width:220px;
+       align-content: center;
+       padding-left: 5px;
+       display: flex;
+       height: 25px;
+       border-color:rgba(13,21,96,255);
+      
+   }
+   .textbox2{
+    font-size: 12px;
+           border-radius: 5px;
+           width:465px;
+           align-content: center;
+           padding-left: 5px;
+           display: flex;
+           height: 25px;
+           border-color:rgba(13,21,96,255);
+           
+       }
+
+   .btn1{
+    height:40px;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+    align-content: center;
+    color: white;
+    background-color:rgba(13,21,96,255);
+    font-weight: bold;
+    vertical-align:middle;
+    padding-top: -35px;
+   }
+   .col1{
+       size: 20px;
+   }
+   .ErrorMessage1{
+    color: red;
+    align-content: flex-start;
+    text-align: start;
+    margin-left: 4px;
+    font-size: 14px;
+    
+}

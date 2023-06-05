@@ -1,0 +1,51 @@
+input[type="file"] {
+    display: none;
+    
+}
+.custom-file-upload {
+    margin-left: 2%;
+    border-radius: 55px;
+    background:#579DF2;
+    display: inline-block;
+    padding: 6px 12px;
+    cursor: pointer;
+    color:white;
+}
+.picture-container {
+    position: relative;
+    cursor: pointer;
+    text-align: center;
+}
+
+.picture {
+    width: 106px;
+    height: 106px;
+    background-color: #999999;
+    border: 4px solid #CCCCCC;
+    color: #FFFFFF;
+    border-radius: 50%;
+    margin: 5px auto;
+    overflow: hidden;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+.picture:hover {
+        border-color: #2ca8ff;
+}
+
+.picture input[type="file"] {
+        cursor: pointer;
+        display: block;
+        height: 100px;
+        left: 0;
+        margin-top: -100px;
+        opacity: 0 !important;
+        position: relative;
+        top: 0;
+        width: 100px;
+}
+
+.picture-src {
+    width: 100%;
+}

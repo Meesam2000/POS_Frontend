@@ -1,0 +1,84 @@
+.main1{
+    align-content: left;
+    display: flex;
+    justify-content: left;
+    height:90vh;
+    max-width: 90vw;
+   }
+   
+   .sub-main{
+    align-content: left;
+    justify-content: left;
+    display: flex;
+    border-radius: 10px;
+    height:100%;
+    width: 50%;
+    padding:100px 0 90px 0;
+    background-color:rgb(131, 70, 180);
+   }
+
+   .head2{
+   font-style:oblique;
+   color: rgba(13,21,96,255);
+   text-align: center;
+   font-weight: bold;
+   align-content: center;
+   
+   }
+
+   .div1{
+       padding-top: 25px;
+   }
+   .label{
+       font-family: sans-serif;
+       font-weight:bold;
+       font-size: 16px;
+       color: rgba(13,21,96,255);
+       text-align: left;
+       align-content: left;
+       padding-left: 5px;
+       padding-top: 10px;
+       
+   }
+
+   .textbox{
+       border-radius: 5px;
+       width:250px;
+       font-size: 12px;
+       align-content: center;
+       padding-left: 5px;
+       display: flex;
+       height: 35px;
+       border-color:rgba(13,21,96,255);
+       box-shadow: rgb(14, 25, 104); 
+   }
+   .lower{
+       display: flex;
+       flex-direction: row;
+
+   }
+  a{
+    text-align: left;
+    padding-left: 0%;
+   }
+   .butn1{
+    width:90%;
+    height:40px;
+    border-radius: 10px;
+    align-content: center;
+    text-align: center;
+    margin-top: 20px;
+    align-content: center;
+    color: white;
+    background-color:rgba(13,21,96,255);
+    font-weight: bold;
+    vertical-align:middle;
+    padding-top: -15px;
+}
+   .ErrorMessage1{
+       color: red;
+       align-content: flex-start;
+       text-align: start;
+       margin-left: 4px;
+       font-size: 14px;
+   }
