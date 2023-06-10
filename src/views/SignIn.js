@@ -39,6 +39,7 @@ const Signin = () => {
             password: values.password
         }).then((response) => {
             const { data } = response
+            console.log("------loginResponse------", response);
             if (data.auth && data.token) {
                 localStorage.setItem('token', data.token)
                 localStorage.setItem('user', JSON.stringify(data.result))
@@ -59,8 +60,9 @@ const Signin = () => {
                 alert("Login Failed !!")
             }
         }).catch((error) => {
-            console.log("Error aya hai");
-        })
+            console.log("Error aya hai", error);
+        });
+        console.log("------values------", values);
     })
 
 

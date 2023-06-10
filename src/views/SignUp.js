@@ -64,13 +64,16 @@ const Signup = () => {
             company: values.company
         }).then((response) => {
             
+            console.log("-------signupResponse--------", response);
 
             if (response.data.status === 200) {
-                alert("we have sent you an confirmation email. please check your email!!")
+                alert("we have sent you an confirmation email. please check your email!!");
+                console.log("first if condition");
             }
             else if (response.data.status===400){
                 
                 alert("Something Went Wrong!!")
+                console.log("else if condition");
             }
         });
         console.log('values', values);
